@@ -1,11 +1,4 @@
 import deltachat_rpc_client as dc
-import os
-
-def nothing(**args):
-    pass
-
-os.setpgrp = nothing
-    
 
 if __name__ == "__main__":
     with dc.Rpc() as rpc:
