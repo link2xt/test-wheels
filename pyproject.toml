@@ -1,0 +1,9 @@
+[project]
+name = "deltachat-test-wheels"
+description = "Test that deltachat-rpc-server wheels work"
+dependencies = ["deltachat-rpc-client", "deltachat-rpc-server"]
+version = "0.1"
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"

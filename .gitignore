@@ -1,0 +1,4 @@
+*.egg-info
+accounts/
+venv/
+**/__pycache__
